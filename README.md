@@ -1,2 +1,2 @@
 # SpringBoot
-This repository is created to push hands on code SPRING BOOT
+This repository is created to push hands on code of SPRING BOOT
