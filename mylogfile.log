@@ -1,0 +1,430 @@
+2018-02-21 19:48:05.908 DEBUG 605 --- [background-preinit] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 19:48:06.632 DEBUG 605 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 19:48:06.647 DEBUG 605 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 19:48:06.653 DEBUG 605 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 19:48:06.654 DEBUG 605 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 19:48:06.657 DEBUG 605 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 19:48:06.659 DEBUG 605 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 19:48:06.661 DEBUG 605 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 19:48:06.663 DEBUG 605 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 19:48:06.663 DEBUG 605 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 19:48:06.664 DEBUG 605 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 19:48:07.785 DEBUG 605 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 19:48:07.792 DEBUG 605 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 19:48:07.793 DEBUG 605 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 19:48:07.793 DEBUG 605 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 19:48:07.794 DEBUG 605 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 19:48:07.794 DEBUG 605 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 19:48:07.795 DEBUG 605 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 19:48:07.795 DEBUG 605 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 19:48:07.795 DEBUG 605 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 19:48:07.796 DEBUG 605 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 19:48:08.540 DEBUG 605 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration=org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$$EnhancerBySpringCGLIB$$df86b374@35a60674}
+2018-02-21 19:48:08.618  INFO 605 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-02-21 19:48:08.688 DEBUG 605 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasAnyRole('ROLE_USER')', for org.springframework.security.web.util.matcher.AnyRequestMatcher@1
+2018-02-21 19:48:08.706 DEBUG 605 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 19:48:08.707 DEBUG 605 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 19:48:08.712  INFO 605 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@697173d9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3003827c, org.springframework.security.web.header.HeaderWriterFilter@34332b8d, org.springframework.security.web.authentication.logout.LogoutFilter@6949e948, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@633fd91, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@656f62dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a3e8e24, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ceddaf8, org.springframework.security.web.session.SessionManagementFilter@2d55e826, org.springframework.security.web.access.ExceptionTranslationFilter@692dba54, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@340d6d89]
+2018-02-21 19:54:05.815  INFO 617 --- [main] c.fahimtech.logging.LoggingApplication   : Starting LoggingApplication on Fahimuls-Air with PID 617 (/Users/fahimulhaque/Documents/TestCode/logging/target/classes started by fahimulhaque in /Users/fahimulhaque/Documents/TestCode/logging)
+2018-02-21 19:54:05.822  INFO 617 --- [main] c.fahimtech.logging.LoggingApplication   : No active profile set, falling back to default profiles: default
+2018-02-21 19:54:05.930  INFO 617 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@448c8166: startup date [Wed Feb 21 19:54:05 IST 2018]; root of context hierarchy
+2018-02-21 19:54:06.746 DEBUG 617 --- [background-preinit] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 19:54:07.354 DEBUG 617 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 19:54:07.368 DEBUG 617 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 19:54:07.373 DEBUG 617 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 19:54:07.374 DEBUG 617 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 19:54:07.377 DEBUG 617 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 19:54:07.379 DEBUG 617 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 19:54:07.381 DEBUG 617 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 19:54:07.382 DEBUG 617 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 19:54:07.382 DEBUG 617 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 19:54:07.383 DEBUG 617 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 19:54:07.892  INFO 617 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-21 19:54:07.914  INFO 617 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-21 19:54:07.916  INFO 617 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-21 19:54:08.028  INFO 617 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-21 19:54:08.255  INFO 617 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-21 19:54:08.256  INFO 617 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-21 19:54:08.256  INFO 617 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-21 19:54:08.256  INFO 617 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-21 19:54:08.258  INFO 617 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-02-21 19:54:08.258  INFO 617 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-21 19:54:08.444 DEBUG 617 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 19:54:08.452 DEBUG 617 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 19:54:08.452 DEBUG 617 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 19:54:08.453 DEBUG 617 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 19:54:08.453 DEBUG 617 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 19:54:08.454 DEBUG 617 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 19:54:08.454 DEBUG 617 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 19:54:08.454 DEBUG 617 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 19:54:08.454 DEBUG 617 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 19:54:08.455 DEBUG 617 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 19:54:09.147 DEBUG 617 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration=org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$$EnhancerBySpringCGLIB$$9fdd5b37@7f37b6d9}
+2018-02-21 19:54:09.173  INFO 617 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 87bfbd58-9fa3-46e5-a3c0-e646d9e7dcf0
+
+2018-02-21 19:54:09.241  INFO 617 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-02-21 19:54:09.311 DEBUG 617 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasAnyRole('ROLE_USER')', for org.springframework.security.web.util.matcher.AnyRequestMatcher@1
+2018-02-21 19:54:09.322 DEBUG 617 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 19:54:09.323 DEBUG 617 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 19:54:09.327  INFO 617 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5a49af50, org.springframework.security.web.context.SecurityContextPersistenceFilter@75e27856, org.springframework.security.web.header.HeaderWriterFilter@7d32e714, org.springframework.security.web.authentication.logout.LogoutFilter@7219ac49, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@673c4f6e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6a756082, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@261db982, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b1dc579, org.springframework.security.web.session.SessionManagementFilter@7523a3dc, org.springframework.security.web.access.ExceptionTranslationFilter@134ff8f8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41b13f3d]
+2018-02-21 19:54:09.515  INFO 617 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-21 19:54:09.595  INFO 617 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-21 19:54:09.605  INFO 617 --- [main] c.fahimtech.logging.LoggingApplication   : Started LoggingApplication in 7.807 seconds (JVM running for 8.669)
+2018-02-21 20:05:27.178  INFO 640 --- [main] c.fahimtech.logging.LoggingApplication   : Starting LoggingApplication on Fahimuls-Air with PID 640 (/Users/fahimulhaque/Documents/TestCode/logging/target/classes started by fahimulhaque in /Users/fahimulhaque/Documents/TestCode/logging)
+2018-02-21 20:05:27.183 DEBUG 640 --- [main] c.fahimtech.logging.LoggingApplication   : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-21 20:05:27.184  INFO 640 --- [main] c.fahimtech.logging.LoggingApplication   : No active profile set, falling back to default profiles: default
+2018-02-21 20:05:27.277  INFO 640 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:05:27 IST 2018]; root of context hierarchy
+2018-02-21 20:05:28.047 DEBUG 640 --- [background-preinit] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:05:28.769 DEBUG 640 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:05:28.785 DEBUG 640 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:05:28.790 DEBUG 640 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:05:28.791 DEBUG 640 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:05:28.793 DEBUG 640 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:05:28.796 DEBUG 640 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:05:28.797 DEBUG 640 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:05:28.799 DEBUG 640 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:05:28.799 DEBUG 640 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:05:28.799 DEBUG 640 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:05:29.313  INFO 640 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-21 20:05:29.332  INFO 640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-21 20:05:29.333  INFO 640 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-21 20:05:29.440  INFO 640 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-21 20:05:29.668  INFO 640 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-21 20:05:29.669  INFO 640 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-21 20:05:29.669  INFO 640 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-21 20:05:29.669  INFO 640 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-21 20:05:29.670  INFO 640 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-02-21 20:05:29.671  INFO 640 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-21 20:05:29.856 DEBUG 640 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:05:29.865 DEBUG 640 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:05:29.865 DEBUG 640 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:05:29.865 DEBUG 640 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:05:29.866 DEBUG 640 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:05:29.867 DEBUG 640 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:05:29.867 DEBUG 640 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:05:29.867 DEBUG 640 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:05:29.867 DEBUG 640 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:05:29.867 DEBUG 640 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:05:30.618 DEBUG 640 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration=org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$$EnhancerBySpringCGLIB$$81d6861c@3d64c581}
+2018-02-21 20:05:30.632  INFO 640 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 2d287c84-7d4a-48f9-884c-3cc3f3c084d8
+
+2018-02-21 20:05:30.692  INFO 640 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-02-21 20:05:30.785 DEBUG 640 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasAnyRole('ROLE_USER')', for org.springframework.security.web.util.matcher.AnyRequestMatcher@1
+2018-02-21 20:05:30.798 DEBUG 640 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:05:30.800 DEBUG 640 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:05:30.805  INFO 640 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@254449bb, org.springframework.security.web.context.SecurityContextPersistenceFilter@df921b1, org.springframework.security.web.header.HeaderWriterFilter@633fd91, org.springframework.security.web.authentication.logout.LogoutFilter@ae73c80, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@46f902e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3902bd2c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ce443f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e642ee1, org.springframework.security.web.session.SessionManagementFilter@60a19573, org.springframework.security.web.access.ExceptionTranslationFilter@66236a0a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17aa8a11]
+2018-02-21 20:05:31.084  INFO 640 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-21 20:05:31.165 ERROR 640 --- [main] o.apache.catalina.core.StandardService   : Failed to start connector [Connector[HTTP/1.1-8080]]
+
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167) ~[tomcat-embed-core-8.5.27.jar:8.5.27]
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225) ~[tomcat-embed-core-8.5.27.jar:8.5.27]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546) [spring-context-4.3.14.RELEASE.jar:4.3.14.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107) [spring-boot-1.5.10.RELEASE.jar:1.5.10.RELEASE]
+	at com.fahimtech.logging.LoggingApplication.main(LoggingApplication.java:17) [classes/:na]
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1021) ~[tomcat-embed-core-8.5.27.jar:8.5.27]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150) ~[tomcat-embed-core-8.5.27.jar:8.5.27]
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:433) ~[na:na]
+	at java.base/sun.nio.ch.Net.bind(Net.java:425) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225) ~[na:na]
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74) ~[na:na]
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210) ~[tomcat-embed-core-8.5.27.jar:8.5.27]
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150) ~[tomcat-embed-core-8.5.27.jar:8.5.27]
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591) ~[tomcat-embed-core-8.5.27.jar:8.5.27]
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018) ~[tomcat-embed-core-8.5.27.jar:8.5.27]
+	... 14 common frames omitted
+
+2018-02-21 20:05:31.176  INFO 640 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-02-21 20:05:31.202  INFO 640 --- [main] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2018-02-21 20:05:31.208 ERROR 640 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2018-02-21 20:05:31.211  INFO 640 --- [main] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:05:27 IST 2018]; root of context hierarchy
+2018-02-21 20:05:31.216  INFO 640 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-21 20:05:37.043  INFO 617 --- [Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@448c8166: startup date [Wed Feb 21 19:54:05 IST 2018]; root of context hierarchy
+2018-02-21 20:05:37.046  INFO 617 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-21 20:05:44.508  INFO 647 --- [main] c.fahimtech.logging.LoggingApplication   : Starting LoggingApplication on Fahimuls-Air with PID 647 (/Users/fahimulhaque/Documents/TestCode/logging/target/classes started by fahimulhaque in /Users/fahimulhaque/Documents/TestCode/logging)
+2018-02-21 20:05:44.518 DEBUG 647 --- [main] c.fahimtech.logging.LoggingApplication   : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-21 20:05:44.518  INFO 647 --- [main] c.fahimtech.logging.LoggingApplication   : No active profile set, falling back to default profiles: default
+2018-02-21 20:05:44.693  INFO 647 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:05:44 IST 2018]; root of context hierarchy
+2018-02-21 20:05:45.809 DEBUG 647 --- [background-preinit] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:05:46.613 DEBUG 647 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:05:46.629 DEBUG 647 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:05:46.635 DEBUG 647 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:05:46.636 DEBUG 647 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:05:46.638 DEBUG 647 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:05:46.640 DEBUG 647 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:05:46.642 DEBUG 647 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:05:46.643 DEBUG 647 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:05:46.643 DEBUG 647 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:05:46.643 DEBUG 647 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:05:47.182  INFO 647 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-21 20:05:47.199  INFO 647 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-21 20:05:47.201  INFO 647 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-21 20:05:47.316  INFO 647 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-21 20:05:47.555  INFO 647 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-21 20:05:47.555  INFO 647 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-21 20:05:47.555  INFO 647 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-21 20:05:47.555  INFO 647 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-21 20:05:47.556  INFO 647 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-02-21 20:05:47.557  INFO 647 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-21 20:05:47.736 DEBUG 647 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:05:47.742 DEBUG 647 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:05:47.743 DEBUG 647 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:05:47.744 DEBUG 647 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:05:47.745 DEBUG 647 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:05:47.745 DEBUG 647 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:05:47.745 DEBUG 647 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:05:47.746 DEBUG 647 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:05:47.746 DEBUG 647 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:05:47.747 DEBUG 647 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:05:48.461 DEBUG 647 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration=org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$$EnhancerBySpringCGLIB$$6371204e@3bb87d36}
+2018-02-21 20:05:48.474  INFO 647 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 78cb2b91-b4d1-40ca-946b-58a7f16341fd
+
+2018-02-21 20:05:48.535  INFO 647 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-02-21 20:05:48.601 DEBUG 647 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasAnyRole('ROLE_USER')', for org.springframework.security.web.util.matcher.AnyRequestMatcher@1
+2018-02-21 20:05:48.611 DEBUG 647 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:05:48.613 DEBUG 647 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:05:48.616  INFO 647 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4694f434, org.springframework.security.web.context.SecurityContextPersistenceFilter@2806d6da, org.springframework.security.web.header.HeaderWriterFilter@4db60246, org.springframework.security.web.authentication.logout.LogoutFilter@1fd9893c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3fb9a67f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75e27856, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7beae796, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56928e17, org.springframework.security.web.session.SessionManagementFilter@51a18b21, org.springframework.security.web.access.ExceptionTranslationFilter@66f28a1f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e906375]
+2018-02-21 20:05:48.797  INFO 647 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-21 20:05:48.880  INFO 647 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-21 20:05:48.890  INFO 647 --- [main] c.fahimtech.logging.LoggingApplication   : Started LoggingApplication in 5.413 seconds (JVM running for 6.513)
+2018-02-21 20:05:48.890 DEBUG 647 --- [main] c.fahimtech.logging.LoggingApplication   : -----APPLICATION GET STARTED--------
+2018-02-21 20:05:48.890  INFO 647 --- [main] c.fahimtech.logging.LoggingApplication   : APPLICATION INFO LOG
+2018-02-21 20:06:17.248  INFO 647 --- [Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:05:44 IST 2018]; root of context hierarchy
+2018-02-21 20:06:17.252  INFO 647 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-21 20:06:20.621  INFO 654 --- [main] c.fahimtech.logging.LoggingApplication   : Starting LoggingApplication on Fahimuls-Air with PID 654 (/Users/fahimulhaque/Documents/TestCode/logging/target/classes started by fahimulhaque in /Users/fahimulhaque/Documents/TestCode/logging)
+2018-02-21 20:06:20.635  INFO 654 --- [main] c.fahimtech.logging.LoggingApplication   : No active profile set, falling back to default profiles: default
+2018-02-21 20:06:20.788  INFO 654 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:06:20 IST 2018]; root of context hierarchy
+2018-02-21 20:06:21.649 DEBUG 654 --- [background-preinit] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:06:22.449 DEBUG 654 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:06:22.465 DEBUG 654 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:06:22.471 DEBUG 654 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:06:22.472 DEBUG 654 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:06:22.474 DEBUG 654 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:06:22.476 DEBUG 654 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:06:22.477 DEBUG 654 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:06:22.478 DEBUG 654 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:06:22.479 DEBUG 654 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:06:22.480 DEBUG 654 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:06:23.052  INFO 654 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-21 20:06:23.070  INFO 654 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-21 20:06:23.072  INFO 654 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-21 20:06:23.180  INFO 654 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-21 20:06:23.401  INFO 654 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-21 20:06:23.402  INFO 654 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-21 20:06:23.405  INFO 654 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-21 20:06:23.405  INFO 654 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-21 20:06:23.406  INFO 654 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-02-21 20:06:23.407  INFO 654 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-21 20:06:23.583 DEBUG 654 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:06:23.590 DEBUG 654 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:06:23.591 DEBUG 654 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:06:23.591 DEBUG 654 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:06:23.591 DEBUG 654 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:06:23.592 DEBUG 654 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:06:23.592 DEBUG 654 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:06:23.592 DEBUG 654 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:06:23.592 DEBUG 654 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:06:23.593 DEBUG 654 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:06:24.345 DEBUG 654 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration=org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$$EnhancerBySpringCGLIB$$42783e0e@4190bc8a}
+2018-02-21 20:06:24.358  INFO 654 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: efc8a50e-31be-4062-b494-cfc1080d3776
+
+2018-02-21 20:06:24.417  INFO 654 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-02-21 20:06:24.481 DEBUG 654 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasAnyRole('ROLE_USER')', for org.springframework.security.web.util.matcher.AnyRequestMatcher@1
+2018-02-21 20:06:24.492 DEBUG 654 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:06:24.493 DEBUG 654 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:06:24.498  INFO 654 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@29ebbdf4, org.springframework.security.web.context.SecurityContextPersistenceFilter@2152ab30, org.springframework.security.web.header.HeaderWriterFilter@97a145b, org.springframework.security.web.authentication.logout.LogoutFilter@bbd4791, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@361abd01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@eb6ec6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51a18b21, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fd954f, org.springframework.security.web.session.SessionManagementFilter@134ff8f8, org.springframework.security.web.access.ExceptionTranslationFilter@77c10a5f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@18a25bbd]
+2018-02-21 20:06:24.667  INFO 654 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-21 20:06:24.749  INFO 654 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-21 20:06:24.759  INFO 654 --- [main] c.fahimtech.logging.LoggingApplication   : Started LoggingApplication in 5.303 seconds (JVM running for 6.354)
+2018-02-21 20:06:24.759  INFO 654 --- [main] c.fahimtech.logging.LoggingApplication   : APPLICATION INFO LOG
+2018-02-21 20:07:28.329  INFO 654 --- [Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:06:20 IST 2018]; root of context hierarchy
+2018-02-21 20:07:28.332  INFO 654 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-21 20:07:35.915  INFO 663 --- [main] c.fahimtech.logging.LoggingApplication   : Starting LoggingApplication on Fahimuls-Air with PID 663 (/Users/fahimulhaque/Documents/TestCode/logging/target/classes started by fahimulhaque in /Users/fahimulhaque/Documents/TestCode/logging)
+2018-02-21 20:07:35.922 DEBUG 663 --- [main] c.fahimtech.logging.LoggingApplication   : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-21 20:07:35.923  INFO 663 --- [main] c.fahimtech.logging.LoggingApplication   : No active profile set, falling back to default profiles: default
+2018-02-21 20:07:36.036  INFO 663 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:07:36 IST 2018]; root of context hierarchy
+2018-02-21 20:07:36.761 DEBUG 663 --- [background-preinit] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:07:37.428 DEBUG 663 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:07:37.442 DEBUG 663 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:07:37.447 DEBUG 663 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:07:37.448 DEBUG 663 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:07:37.451 DEBUG 663 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:07:37.453 DEBUG 663 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:07:37.455 DEBUG 663 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:07:37.456 DEBUG 663 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:07:37.457 DEBUG 663 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:07:37.457 DEBUG 663 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:07:37.954  INFO 663 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-21 20:07:37.978  INFO 663 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-21 20:07:37.980  INFO 663 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-21 20:07:38.083  INFO 663 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-21 20:07:38.322  INFO 663 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-21 20:07:38.323  INFO 663 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-21 20:07:38.323  INFO 663 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-21 20:07:38.324  INFO 663 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-21 20:07:38.325  INFO 663 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-02-21 20:07:38.325  INFO 663 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-21 20:07:38.497 DEBUG 663 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:07:38.505 DEBUG 663 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:07:38.505 DEBUG 663 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:07:38.505 DEBUG 663 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:07:38.506 DEBUG 663 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:07:38.506 DEBUG 663 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:07:38.506 DEBUG 663 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:07:38.507 DEBUG 663 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:07:38.507 DEBUG 663 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:07:38.508 DEBUG 663 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:07:39.235 DEBUG 663 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration=org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$$EnhancerBySpringCGLIB$$81d6861c@3d64c581}
+2018-02-21 20:07:39.252  INFO 663 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 8bb16f4e-3607-4db7-b1d8-3fe1bd6776d7
+
+2018-02-21 20:07:39.320  INFO 663 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-02-21 20:07:39.388 DEBUG 663 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasAnyRole('ROLE_USER')', for org.springframework.security.web.util.matcher.AnyRequestMatcher@1
+2018-02-21 20:07:39.398 DEBUG 663 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:07:39.399 DEBUG 663 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:07:39.404  INFO 663 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@254449bb, org.springframework.security.web.context.SecurityContextPersistenceFilter@df921b1, org.springframework.security.web.header.HeaderWriterFilter@633fd91, org.springframework.security.web.authentication.logout.LogoutFilter@ae73c80, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@46f902e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3902bd2c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ce443f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e642ee1, org.springframework.security.web.session.SessionManagementFilter@60a19573, org.springframework.security.web.access.ExceptionTranslationFilter@66236a0a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17aa8a11]
+2018-02-21 20:07:39.585  INFO 663 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-21 20:07:39.660  INFO 663 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-21 20:07:39.669  INFO 663 --- [main] c.fahimtech.logging.LoggingApplication   : Started LoggingApplication in 7.71 seconds (JVM running for 8.726)
+2018-02-21 20:07:39.670 DEBUG 663 --- [main] c.fahimtech.logging.LoggingApplication   : -----APPLICATION GET STARTED--------
+2018-02-21 20:07:39.670  INFO 663 --- [main] c.fahimtech.logging.LoggingApplication   : APPLICATION INFO LOG
+2018-02-21 20:07:39.670 ERROR 663 --- [main] c.fahimtech.logging.LoggingApplication   : --Error LOG--
+2018-02-21 20:07:59.054  INFO 663 --- [Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:07:36 IST 2018]; root of context hierarchy
+2018-02-21 20:07:59.057  INFO 663 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-21 20:08:02.455  INFO 669 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:08:02 IST 2018]; root of context hierarchy
+2018-02-21 20:08:03.461 DEBUG 669 --- [background-preinit] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:08:04.719 DEBUG 669 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:08:04.738 DEBUG 669 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:08:04.744 DEBUG 669 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:08:04.744 DEBUG 669 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:08:04.747 DEBUG 669 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:08:04.749 DEBUG 669 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:08:04.751 DEBUG 669 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:08:04.752 DEBUG 669 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:08:04.753 DEBUG 669 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:08:04.753 DEBUG 669 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:08:05.456  INFO 669 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-21 20:08:05.479  INFO 669 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-21 20:08:05.481  INFO 669 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-21 20:08:05.626  INFO 669 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-21 20:08:05.906  INFO 669 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-21 20:08:05.906  INFO 669 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-21 20:08:05.906  INFO 669 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-21 20:08:05.907  INFO 669 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-21 20:08:05.909  INFO 669 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-02-21 20:08:05.909  INFO 669 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-21 20:08:06.105 DEBUG 669 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:08:06.113 DEBUG 669 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:08:06.114 DEBUG 669 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:08:06.115 DEBUG 669 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:08:06.116 DEBUG 669 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:08:06.117 DEBUG 669 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:08:06.117 DEBUG 669 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:08:06.117 DEBUG 669 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:08:06.118 DEBUG 669 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:08:06.118 DEBUG 669 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:08:07.016 DEBUG 669 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration=org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$$EnhancerBySpringCGLIB$$472f8e57@24a86066}
+2018-02-21 20:08:07.030  INFO 669 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: 3bc13028-2fda-47db-ab8e-2871119ca8c9
+
+2018-02-21 20:08:07.095  INFO 669 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-02-21 20:08:07.189 DEBUG 669 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasAnyRole('ROLE_USER')', for org.springframework.security.web.util.matcher.AnyRequestMatcher@1
+2018-02-21 20:08:07.201 DEBUG 669 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:08:07.202 DEBUG 669 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:08:07.206  INFO 669 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@53a84ff4, org.springframework.security.web.context.SecurityContextPersistenceFilter@633fd91, org.springframework.security.web.header.HeaderWriterFilter@ea52184, org.springframework.security.web.authentication.logout.LogoutFilter@7523a3dc, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2a53f215, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c386958, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66f28a1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ce85af2, org.springframework.security.web.session.SessionManagementFilter@77c10a5f, org.springframework.security.web.access.ExceptionTranslationFilter@43bdaa1b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@15f35bc3]
+2018-02-21 20:08:07.420  INFO 669 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-21 20:08:07.515  INFO 669 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-21 20:08:07.520 ERROR 669 --- [main] c.fahimtech.logging.LoggingApplication   : --Error LOG--
+2018-02-21 20:08:58.764  INFO 669 --- [Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:08:02 IST 2018]; root of context hierarchy
+2018-02-21 20:08:58.768  INFO 669 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-02-21 20:09:04.772  INFO 673 --- [main] c.fahimtech.logging.LoggingApplication   : Starting LoggingApplication on Fahimuls-Air with PID 673 (/Users/fahimulhaque/Documents/TestCode/logging/target/classes started by fahimulhaque in /Users/fahimulhaque/Documents/TestCode/logging)
+2018-02-21 20:09:04.795 DEBUG 673 --- [main] c.fahimtech.logging.LoggingApplication   : Running with Spring Boot v1.5.10.RELEASE, Spring v4.3.14.RELEASE
+2018-02-21 20:09:04.795  INFO 673 --- [main] c.fahimtech.logging.LoggingApplication   : No active profile set, falling back to default profiles: default
+2018-02-21 20:09:04.902  INFO 673 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:09:04 IST 2018]; root of context hierarchy
+2018-02-21 20:09:05.683 DEBUG 673 --- [background-preinit] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:09:06.322 DEBUG 673 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:09:06.336 DEBUG 673 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:09:06.340 DEBUG 673 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:09:06.341 DEBUG 673 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:09:06.343 DEBUG 673 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:09:06.345 DEBUG 673 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:09:06.346 DEBUG 673 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:09:06.348 DEBUG 673 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:09:06.348 DEBUG 673 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:09:06.349 DEBUG 673 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:09:06.859  INFO 673 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-02-21 20:09:06.880  INFO 673 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-02-21 20:09:06.882  INFO 673 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.27
+2018-02-21 20:09:06.993  INFO 673 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-02-21 20:09:07.218  INFO 673 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-02-21 20:09:07.219  INFO 673 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-02-21 20:09:07.219  INFO 673 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-02-21 20:09:07.219  INFO 673 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-02-21 20:09:07.221  INFO 673 --- [localhost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+2018-02-21 20:09:07.221  INFO 673 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-02-21 20:09:07.399 DEBUG 673 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:09:07.407 DEBUG 673 --- [main] o.h.v.i.e.r.DefaultTraversableResolver   : Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-02-21 20:09:07.408 DEBUG 673 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-02-21 20:09:07.408 DEBUG 673 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-02-21 20:09:07.409 DEBUG 673 --- [main] o.h.v.internal.engine.ConfigurationImpl  : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy42
+2018-02-21 20:09:07.409 DEBUG 673 --- [main] o.h.v.internal.xml.ValidationXmlParser   : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-02-21 20:09:07.409 DEBUG 673 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via user class loader
+2018-02-21 20:09:07.409 DEBUG 673 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via TCCL
+2018-02-21 20:09:07.410 DEBUG 673 --- [main] o.h.v.internal.xml.ResourceLoaderHelper  : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-02-21 20:09:07.410 DEBUG 673 --- [main] o.h.v.internal.xml.ValidationXmlParser   : No META-INF/validation.xml found. Using annotation based configuration only.
+2018-02-21 20:09:08.153 DEBUG 673 --- [main] eGlobalAuthenticationAutowiredConfigurer : Eagerly initializing {org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration=org.springframework.boot.autoconfigure.security.SpringBootWebSecurityConfiguration$$EnhancerBySpringCGLIB$$6371204e@3bb87d36}
+2018-02-21 20:09:08.168  INFO 673 --- [main] b.a.s.AuthenticationManagerConfiguration : 
+
+Using default security password: f9049854-2ca9-4bd8-aad4-dc821d75a47f
+
+2018-02-21 20:09:08.232  INFO 673 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/css/**'], Ant [pattern='/js/**'], Ant [pattern='/images/**'], Ant [pattern='/webjars/**'], Ant [pattern='/**/favicon.ico'], Ant [pattern='/error']]], []
+2018-02-21 20:09:08.307 DEBUG 673 --- [main] edFilterInvocationSecurityMetadataSource : Adding web access control expression 'hasAnyRole('ROLE_USER')', for org.springframework.security.web.util.matcher.AnyRequestMatcher@1
+2018-02-21 20:09:08.322 DEBUG 673 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:09:08.324 DEBUG 673 --- [main] o.s.s.w.a.i.FilterSecurityInterceptor    : Validated configuration attributes
+2018-02-21 20:09:08.330  INFO 673 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/**']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4694f434, org.springframework.security.web.context.SecurityContextPersistenceFilter@2806d6da, org.springframework.security.web.header.HeaderWriterFilter@4db60246, org.springframework.security.web.authentication.logout.LogoutFilter@1fd9893c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3fb9a67f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75e27856, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7beae796, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56928e17, org.springframework.security.web.session.SessionManagementFilter@51a18b21, org.springframework.security.web.access.ExceptionTranslationFilter@66f28a1f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e906375]
+2018-02-21 20:09:08.517  INFO 673 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-02-21 20:09:08.596  INFO 673 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-02-21 20:09:08.606  INFO 673 --- [main] c.fahimtech.logging.LoggingApplication   : Started LoggingApplication in 7.692 seconds (JVM running for 8.849)
+2018-02-21 20:09:08.607 DEBUG 673 --- [main] c.fahimtech.logging.LoggingApplication   : -----APPLICATION GET STARTED--------
+2018-02-21 20:09:08.607  INFO 673 --- [main] c.fahimtech.logging.LoggingApplication   : APPLICATION INFO LOG
+2018-02-21 20:09:08.607 ERROR 673 --- [main] c.fahimtech.logging.LoggingApplication   : --Error LOG--
+2018-02-21 20:09:50.748  INFO 673 --- [Thread-2] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4470fbd6: startup date [Wed Feb 21 20:09:04 IST 2018]; root of context hierarchy
+2018-02-21 20:09:50.751  INFO 673 --- [Thread-2] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
